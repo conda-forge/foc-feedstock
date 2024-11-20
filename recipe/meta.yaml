@@ -1,5 +1,5 @@
 {% set name = "foc" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/foc-{{ version }}.tar.gz
-  sha256: 9861bf12ae38f5e8f7a7a91c7f75d2e26bf59031abbb49b3af296bfc5e4c0eef
+  sha256: 9799d092053d2238cc607839ba0dbd00433dcdf3b37c8816c0bee71a034089df
 
 build:
   noarch: python
